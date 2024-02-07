@@ -1,0 +1,27 @@
+[
+    {
+      "title": "Edumodeler",
+      "imageSrc": "projects/project.png",
+      "description": "An unified education portal for curriculum development by AICTE.",
+      "skills": ["React", "Nest JS", "Springboot"],
+      "demo": "https://www.example.com",
+      "source": "https://github.com/Aratrik123/EduModeler"
+    },
+    {
+      "title": "Project B",
+      "imageSrc": "projects/project.png",
+      "description": "Bla Bla Bla.",
+      "skills": [],
+      "demo": "https://www.example.com",
+      "source": "https://www.github.com"
+    },
+    {
+      "title": "Project C",
+      "imageSrc": "projects/project.png",
+      "description": "Bla Bla Bla.",
+      "skills": [],
+      "demo": "https://www.example.com",
+      "source": "https://www.github.com"
+    }
+  ]
+  

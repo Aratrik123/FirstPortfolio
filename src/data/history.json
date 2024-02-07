@@ -1,0 +1,17 @@
+[
+    {
+      "role": "Student",
+      "organisation": "Academy of Technology",
+      "startDate": "Sept, 2021",
+      "endDate": "Present",
+      "experiences": ["Convenor at Students' Chapter CSE", "Engineering"]
+    },
+    {
+      "role": "Student",
+      "organisation": "Don Bosco School, Bandel",
+      "startDate": "Apr, 2009",
+      "endDate": "Apr, 2021",
+      "experiences": ["Management", "Soft Skills"]
+    }
+  ]
+  
