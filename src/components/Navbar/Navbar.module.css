@@ -5,7 +5,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 30px;
+  padding-top: 61px;
   z-index: 2;
   margin: 0 10%;
 }
@@ -20,8 +20,6 @@
 
 .menuBtn {
   display: none;
-  margin-top: auto;
-  margin-bottom: auto;
 }
 
 .menu {

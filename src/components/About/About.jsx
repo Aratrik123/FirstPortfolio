@@ -13,7 +13,7 @@ export const About = () => {
         <img
           src={getImageUrl("about/aratrik.jpeg")}
           alt="Me sitting with a laptop"
-          className={styles.aratrik} data-aos="fade-right" data-aos-delay="400"
+          className={styles.aratrik} data-aos="flip-right" data-aos-delay="400"
         />
         <ul className={styles.aboutItems}>
           <li className={styles.aboutItem} data-aos="fade-right" data-aos-delay="400">

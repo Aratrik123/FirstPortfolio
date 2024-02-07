@@ -10,10 +10,10 @@ export const Navbar = () => {
 
   return (
     <nav className={styles.navbar}>
-      <a className={styles.title} href="/" data-aos="fade-right" data-aos-delay="600">
+      <a className={styles.title} href="/" data-aos="fade-right" data-aos-delay="400">
         Welcome!
       </a>
-      <div className={styles.menu}>
+      <div className={styles.menu} data-aos="fade-up" data-aos-delay="600">
         <img
           className={styles.menuBtn}
           src={
@@ -26,19 +26,19 @@ export const Navbar = () => {
         />
         <ul
           className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
-          onClick={() => setMenuOpen(false)} data-aos="fade-down" data-aos-delay="600"
+          onClick={() => setMenuOpen(false)}
         >
           <li>
-            <a href="#about">About</a>
+            <a href="#about" data-aos="fade-up" data-aos-delay="400">About</a>
           </li>
           <li>
-            <a href="#experience">Experience</a>
+            <a href="#experience" data-aos="fade-up" data-aos-delay="800">Experience</a>
           </li>
           <li>
-            <a href="#projects">Projects</a>
+            <a href="#projects" data-aos="fade-up" data-aos-delay="1200">Projects</a>
           </li>
           <li>
-            <a href="#contact">Contact</a>
+            <a href="#contact" data-aos="fade-up" data-aos-delay="1600">Contact</a>
           </li>
         </ul>
       </div>
