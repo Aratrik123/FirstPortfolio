@@ -21,7 +21,7 @@ export const Hero = () => {
       <a href="https://www.instagram.com/in_dealing_dead_03/"><img
         src={getImageUrl("hero/aratrik-balance.jpeg")}
         alt="Hero image of me"
-        className={styles.heroImg} data-aos="fade-left" data-aos-delay="400"
+        className={styles.heroImg} data-aos="fade-left" data-aos-delay="800"
       /></a>
       <div className={styles.topBlur} />
       <div className={styles.bottomBlur} />
