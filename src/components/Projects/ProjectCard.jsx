@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 
 import styles from "./ProjectCard.module.css";
 import { getImageUrl } from "../../utils";
@@ -8,6 +8,9 @@ import 'aos/dist/aos.css';
 export const ProjectCard = ({
   project: { title, imageSrc, description, skills, demo, source },
 }) => {
+  useEffect(() => {
+    AOS.init({ once: true }); 
+  }, []);
   return (
     <div className={styles.container}  data-aos="fade-up" data-aos-delay="600">
       <img

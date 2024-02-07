@@ -1,13 +1,15 @@
 import React from 'react';
+import styles from "./Footer.module.css";
 import 'aos/dist/aos.css';
 
 export const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="position-absolute bottom-0 w-full bg-gradient-to-r from-sky-400 via-gray-50 to-blue-500 text-center lg:text-left">
-      <div className="p-4 text-center text-neutral-700 dark:text-neutral-200">
-        ©{currentYear} by Semicolon
+    <footer className={styles.container}>
+      <div className={styles.footer}>
+        Portfolio by Aratrik!
+        ©{currentYear}
       </div>
     </footer>
   );
