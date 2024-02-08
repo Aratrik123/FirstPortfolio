@@ -10,10 +10,10 @@ export const Navbar = () => {
 
   return (
     <nav className={styles.navbar}>
-      <a className={styles.title} href="/" data-aos="fade-right" data-aos-delay="400">
+      <a className={styles.title} href="/" data-aos="fade-right" data-aos-delay="200">
         Welcome!
       </a>
-      <div className={styles.menu} data-aos="fade-up" data-aos-delay="600">
+      <div className={styles.menu} data-aos="fade-up" data-aos-delay="400">
         <img
           className={styles.menuBtn}
           src={
@@ -29,16 +29,16 @@ export const Navbar = () => {
           onClick={() => setMenuOpen(false)}
         >
           <li>
-            <a href="#about" data-aos="fade-up" data-aos-delay="400">About</a>
+            <a href="#about" data-aos="fade-up" data-aos-delay="200">About</a>
           </li>
           <li>
-            <a href="#experience" data-aos="fade-up" data-aos-delay="800">Experience</a>
+            <a href="#experience" data-aos="fade-up" data-aos-delay="400">Experience</a>
           </li>
           <li>
-            <a href="#projects" data-aos="fade-up" data-aos-delay="1200">Projects</a>
+            <a href="#projects" data-aos="fade-up" data-aos-delay="600">Projects</a>
           </li>
           <li>
-            <a href="#contact" data-aos="fade-up" data-aos-delay="1600">Contact</a>
+            <a href="#contact" data-aos="fade-up" data-aos-delay="800">Contact</a>
           </li>
         </ul>
       </div>

@@ -8,15 +8,15 @@ import 'aos/dist/aos.css';
 export const About = () => {
   return (
     <section className={styles.container} id="about">
-      <h2 className={styles.title} data-aos="fade-right" data-aos-delay="400">About</h2>
+      <h2 className={styles.title} data-aos="fade-right" data-aos-delay="200">About</h2>
       <div className={styles.content}>
         <img
           src={getImageUrl("about/aratrik.jpeg")}
           alt="Me sitting with a laptop"
-          className={styles.aratrik} data-aos="flip-right" data-aos-delay="400"
+          className={styles.aratrik} data-aos="flip-right" data-aos-delay="200"
         />
         <ul className={styles.aboutItems}>
-          <li className={styles.aboutItem} data-aos="fade-right" data-aos-delay="400">
+          <li className={styles.aboutItem} data-aos="fade-right" data-aos-delay="200">
             <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" />
             <div className={styles.aboutItemText}>
               <h3>Frontend Developer</h3>
@@ -25,7 +25,7 @@ export const About = () => {
               </p>
             </div>
           </li>
-          <li className={styles.aboutItem} data-aos="fade-left" data-aos-delay="400">
+          <li className={styles.aboutItem} data-aos="fade-left" data-aos-delay="200">
             <img src={getImageUrl("about/serverIcon.png")} alt="Server icon" />
             <div className={styles.aboutItemText}>
               <h3>Backend Developer</h3>
@@ -34,7 +34,7 @@ export const About = () => {
               </p>
             </div>
           </li>
-          <li className={styles.aboutItem} data-aos="fade-right" data-aos-delay="400">
+          <li className={styles.aboutItem} data-aos="fade-right" data-aos-delay="200">
             <img src={getImageUrl("about/cursorIcon.png")} alt="UI icon" />
             <div className={styles.aboutItemText}>
               <h3>UI Designer</h3>

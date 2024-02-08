@@ -10,9 +10,9 @@ import 'aos/dist/aos.css';
 export const Experience = () => {
   return (
     <section className={styles.container} id="experience">
-      <h2 className={styles.title} data-aos="fade-right" data-aos-delay="600">Experience and Education</h2>
+      <h2 className={styles.title} data-aos="fade-right" data-aos-delay="200">Experience and Education</h2>
       <div className={styles.content}>
-        <div className={styles.skills} data-aos="fade-right" data-aos-delay="800">
+        <div className={styles.skills} data-aos="fade-right" data-aos-delay="400">
           {skills.map((skill, id) => {
             return (
               <div key={id} className={styles.skill}>
@@ -24,10 +24,10 @@ export const Experience = () => {
             );
           })}
         </div>
-        <ul className={styles.history}data-aos="fade-right" data-aos-delay="1000">
+        <ul className={styles.history}data-aos="fade-right" data-aos-delay="600">
           {history.map((historyItem, id) => {
             return (
-              <li key={id} className={styles.historyItem} data-aos="fade-right" data-aos-delay="400">
+              <li key={id} className={styles.historyItem} data-aos="fade-right" data-aos-delay="200">
                 <div className={styles.historyItemDetails}>
                   <h3>{`${historyItem.role}, ${historyItem.organisation}`}</h3>
                   <p>{`${historyItem.startDate} - ${historyItem.endDate}`}</p>

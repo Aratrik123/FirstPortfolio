@@ -137,4 +137,16 @@
   .content {
     align-items: center;
   }
+
+  .heroImg {
+    align-items: center;
+    width: 100%;
+    z-index: 1;
+    border-radius:  10%;
+    filter: drop-shadow(15px 15px 15px black);
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
 }
